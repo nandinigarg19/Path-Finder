@@ -1,6 +1,4 @@
 
-
-
 class PriorityQueue(Queue):
     def __init__(self, list = [], _ascending = True, _sortFunc = None):
         super().__init__(*list)
@@ -15,9 +13,9 @@ class PriorityQueue(Queue):
         self.queue.append(item)
 
 
-q = Queue(53,46,100,98,96,82,16,4,13,82)
-q.enqueue(1)
-q.enqueue(-1)
-q.dequeue()
-print(q.size)
-print(q)
+# q = Queue(53,46,100,98,96,82,16,4,13,82)
+# q.enqueue(1)
+# q.enqueue(-1)
+# q.dequeue()
+# print(q.size)
+# print(q)
