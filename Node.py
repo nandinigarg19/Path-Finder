@@ -10,3 +10,5 @@ class Node:
     @property
     def fcost(self):
         return self.gcost + self.hcost
+
+    
