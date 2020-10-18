@@ -7,6 +7,7 @@ class Node:
         hcost = 0
         parent = None
 
+# please add create Node function here according to __init__
     def createNode(self, gx, gy, walkable):
         self.gridX = gx
         self.gridY = gy
